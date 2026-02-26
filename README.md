@@ -255,14 +255,7 @@ calibrated_model.fit(X_train, Y_train)
 ```
 Traffic-Accident-Risk-Prediction/
 ├── model_save.py              # 학습 스크립트
-├── script.py                  # 추론 스크립트
-├── requirements.txt           # 의존성
-├── model/                     # 학습된 모델 (4개 pkl)
-│   ├── Target_A_model.pkl
-│   ├── Target_B_model.pkl
-│   ├── train_medians_A.pkl
-│   └── train_medians_B.pkl
-├── data/                      # 데이터 (제출 시 제공)
+├── data/                      # 데이터 
 │   ├── train.csv
 │   ├── test.csv
 │   ├── train/
@@ -271,8 +264,15 @@ Traffic-Accident-Risk-Prediction/
 │   └── test/
 │       ├── A.csv
 │       └── B.csv
-└── output/                    # 제출 파일
-    └── submission.csv
+└── submit/                    # 제출 파일 (zip 형식)
+    ├── model/                 # 학습된 모델(4개 pkl)
+    │   ├── Target_A_model.pkl
+    │   ├── Target_B_model.pkl
+    │   ├── train_medians_A.pkl
+    │   └── train_medians_B.pkl
+    ├── script.py                  # 추론 스크립트
+    └── requirements.txt           # 필요한 패키지 및 버전
+
 ```
 
 ## 💡 핵심 학습
