@@ -345,8 +345,7 @@ AUC + Brier + ECE 동시 최적화:
 
 프로젝트의 전체 과정, 기술적 구현, 배포 전략은 아래 Notion 페이지에서 확인하세요:
 
-🔗 **[프로젝트 포트폴리오 (Notion)](#)** ← 내일 작성 후 링크 추가!
-
+🔗 **[프로젝트 포트폴리오 (Notion)](https://sky-sunstone-c93.notion.site/AI-3135874538bb80188914ceefd5af2d3e?source=copy_link)** 
 - 📊 데이터 분석 및 EDA
 - 🛠️ 피처 엔지니어링 상세
 - 🎯 모델링 전략
